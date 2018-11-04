@@ -32,8 +32,8 @@ app = Flask(__name__)
 
 # get channel_secret and channel_access_token from your environment variable
 # change channel_secret and channel_access_token from your line developer
-channel_secret = os.getenv('LINE_CHANNEL_SECRET', "54902033b7e846dcab201560e4ba6d72")
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', "xMqlI3FcxlydPvEg4mYC1KaLk/ubwrknt4SIKE2uWliB9nUdsvRXerzad5MiM45MLDDCJKIxpzxWV2NAmjHpfJIHtRgncHBhRxYAE2jjz3MWyyOGGXOSgoAZ3kewHIjcuyu9XNef/XWmuuYpzLmNVwdB04t89/1O/w1cDnyilFU=")
+channel_secret = os.getenv('LINE_CHANNEL_SECRET', "6b64b387dbb5c9d54d9a4137d2eaf2cf")
+channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', "tDgv6t1wtfGW/cO9n1M60G/NF45qgQ3PBcSK4YRYAAH4Y/91zkqYr51HfXONkjMuLDDCJKIxpzxWV2NAmjHpfJIHtRgncHBhRxYAE2jjz3MQwQFfDMviHw260oVi4dGJYwX8P7a8t5SQqXe6FdliBwdB04t89/1O/w1cDnyilFU=")
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
